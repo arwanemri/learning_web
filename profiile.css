@@ -1,0 +1,319 @@
+body{
+    background-color: gainsboro;
+    
+    
+    
+    }
+
+.logo{
+float: left;
+height: 60px;
+width: 100px;
+margin-left: auto;
+margin-right: 10px;
+border: solid 2px gray;
+padding-top:0px;
+padding-bottom: 0px;
+
+
+
+
+}
+h1{
+    float: left;
+    font-size: 19px;
+   padding-bottom: 0px;
+
+    
+   
+
+}
+h2{
+    font-size: 39px;
+    font-family:monospace;
+    color: gainsboro;
+    
+}
+
+.file{
+  margin-left: 20px;
+}
+
+h4 ,h5 ,h6 , .hc{
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: 50px;
+  border: 2px solid #333;
+  margin: 2px;
+  width: auto;
+  height: auto;
+ 
+}
+.head, .h7{
+  
+  background-color:cadetblue;
+  border-left: solid 4px #333;
+  border-bottom:solid 2px #333;
+  font-size: 25px;
+  margin-left: 9px;
+  width: auto;
+  float: left;
+  height: fit-content;
+  color: gainsboro;
+  padding-right: 5px;
+  margin-top: 30px;
+
+}
+.hed{
+  margin-left: 10px;
+}
+
+
+
+p{
+    font-size: 17px;
+    margin-left: 20px;
+    
+}
+
+.h4 ,.id ,.ed ,.sk{
+ 
+  text-align: center;
+  width: auto;
+
+}
+#div1 , #id ,#courses {
+    background-color: cadetblue;
+    text-align: left;
+   border: solid 1px gray;
+  width: auto;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border:1px solid #333;
+    
+
+    
+    
+}
+
+
+
+.intro{
+background-color: cadetblue;
+padding-bottom: 70px;
+padding-top: 50px;
+text-align: center;
+justify-content:center;
+margin: auto;
+padding-bottom: 2px;
+padding-top: 2px;
+border: solid 1px #333;
+}
+    .topnav{
+        overflow:hidden;
+        background-color:#333;
+        padding-bottom: 1px;
+        justify-content: left;
+        display: block;
+        width:auto;
+       justify-items: left;
+       padding: 3px;
+
+
+        
+      }
+      .topnav a{
+        color: #f2f2f2;
+        font-size: 17px;
+        padding-bottom: 3px;
+      
+        width: auto;
+        text-align: left;
+      }
+
+      .topnav a:hover{
+        background-color:cadetblue;
+        padding-right: 150px;
+        padding-left: 150px;
+        text-align: center;
+        
+      
+      }
+      .topnav a.home {
+       
+        color: white;
+        padding-right: 200px;
+        padding-left: 150px;
+        text-align: center;
+        
+      }
+
+      .topnav a.projects{
+        color: white;
+        padding-right: 200px;
+        padding-left: 150px;
+        text-align: center;
+        
+
+      }
+      .topnav a.course{
+        color: white;
+        padding-right: 200px;
+        padding-left: 150px;
+        text-align: center;
+        
+      }
+      .contact{
+        background-color: #333;
+        padding:25px 25px 25px 25px;
+        text-align: left;
+       width: auto;
+       
+       display: block;
+       margin: auto;
+
+      }
+      
+      .contact a{
+        color:white;
+        text-align: left;
+        
+        
+      }
+      .slider img{
+        width: 300px;
+        height: 180px;
+      }
+      .slider{
+        width: 400px;
+        height: 200px;
+        margin:auto;
+        margin-top: 0px;
+        overflow: hidden;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0px;
+      background-color:cadetblue;
+      }
+      .slider ul{
+        padding: 0px;
+        width:4000px;
+        list-style: none;
+        position: relative;
+        animation: sliding 10s ease-in-out infinite;
+        
+      }
+      .slider ul li{
+        
+        float:right;
+        position: relative;
+      
+      }
+      @keyframes sliding
+      {
+        5%,10%{rigth:0}
+        15%,30%{right:-300px}
+        35%,50%{right:-600px}
+        55%,70%{right:-900px}
+        75%,90%{right:-1200px}
+      }
+
+      .v{
+        background-color:cadetblue;
+        border:1px solid #333;
+        width: auto;
+        height: auto;
+        align-items: center;
+        
+
+      }
+
+
+      .slider2 img{
+        width: 450px;
+        height: 500px;
+      }
+      .slider2{
+        width: 600px;
+        height: 550px;
+        margin-top: 0px;
+        margin: auto;
+        overflow: hidden;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0px;
+      background-color:gainsboro;
+      border: grey solid 2px;
+      }
+      .slider2 ul{
+        padding: 0px;
+        width:4000px;
+        list-style: none;
+        position: relative;
+        animation: sliding1 10s ease-in-out infinite;
+        
+      }
+      .slider2 ul li{
+        
+        float:right;
+        position: relative;
+      
+      }
+      @keyframes sliding1
+      {
+        5%,10%{rigth:0}
+        15%,30%{right:-300px}
+        35%,50%{right:-600px}
+        55%,70%{right:-900px}
+        75%,90%{right:-1200px}
+       
+        
+      }
+      
+      .slider3 img{
+        width: 450px;
+        height: 300px;
+      }
+      .slider3{
+        width: auto;
+        height: 350px;
+        margin:auto;
+        margin-top: 0px;
+        overflow: hidden;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0px;
+      background-color:gainsboro;
+      border: grey solid 2px;
+      }
+      .slider3 ul{
+        padding: 0px;
+        width:5000px;
+        list-style: none;
+        position: relative;
+        animation: sliding2 18s ease-in-out infinite;
+        
+      }
+      .slider3 ul li{
+        
+        float:right;
+        position: relative;
+      
+      }
+      @keyframes sliding2
+      {
+        5%,10%{rigth:0}
+        15%,20%{right:-600px}
+        25%,30%{right:-900px}
+        36%,40%{right:-1000px}
+        45%,50%{right:-1400px}
+        55%,60%{right:-1600px}
+        65%,70%{right:-1800px}
+        75%,80%{right:-2000px}
+        85%,90%{right:-2200px}
+        95%,100%{right:-2400px}
+        95%,115%{right:-2600px}
+      }
+      
+      
